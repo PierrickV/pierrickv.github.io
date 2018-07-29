@@ -15,15 +15,15 @@ var competencesTech = new Chart(ctx, {
         labels: ['Test d\'intrusion', 'Audit de code', 'Audit d\'application mobile', 'Test de robustesse', 'Développement'],
         datasets: [{
             backgroundColor: 'rgb(255, 99, 132, 0.2)',
-            borderColor: '#ff6384',
-            pointBackgroundColor: 'ff6384',
+            borderColor: 'rgb(255, 99, 132)',
+            pointBackgroundColor: 'rgb(255, 99, 132)',
             label: 'Niveau actuel',
             data: [6, 4, 3, 4, 3]
         },
             {
                 backgroundColor: 'rgb(54, 162, 235, 0.2)',
-                borderColor: "#36a2eb",
-                pointBackgroundColor: '36a2eb',
+                borderColor: 'rgb(54, 162, 235)',
+                pointBackgroundColor: 'rgb(54, 162, 235)',
                 label: 'Objectif de progression',
                 data: [10, 8, 7, 6, 9]
             }]
