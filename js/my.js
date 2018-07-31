@@ -6,7 +6,6 @@ $(document).ready(function(){
     $('.collapsible').collapsible();
   });
 
-
 var ctx = document.getElementById("competencesTech").getContext("2d");
 
 var competencesTech = new Chart(ctx, {
